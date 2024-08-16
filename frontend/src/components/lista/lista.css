@@ -1,0 +1,29 @@
+.lista {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+.table-lista {
+    width: 100%;
+    padding: 20px;
+}
+
+.table-lista thead {
+    width: 80%;
+    justify-content: space-around;
+    font-size: 33px;
+    border-bottom: inset;
+    padding-bottom: 5px ;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.table-lista tbody {
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    height: 15vh;
+}
