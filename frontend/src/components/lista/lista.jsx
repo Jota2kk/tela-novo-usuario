@@ -22,9 +22,8 @@ function Lista({users}) {
                     {users.map((item, i)=> (
                         <tr key={i}>
                             <td>{item.name}</td>
-                            <td>{item.email}</td>
                             <td>{item.fone}</td>
-                            <button>excluir</button>
+                            <td>{item.email}</td>
                         </tr>
                     ))}
                 </tbody>

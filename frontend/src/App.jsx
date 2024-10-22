@@ -26,7 +26,7 @@ function App() {
     <>
       <div>
 
-        <h1 style={{textAlign:"center", margin:"22px auto", fontSize:"43px" }}>
+        <h1 style={{textAlign:"center", margin:"22px auto", fontSize:"3vw" }}>
           Novo Usuario
         </h1>
 

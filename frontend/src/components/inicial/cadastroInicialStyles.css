@@ -1,17 +1,20 @@
 .cadastro-inicial-container {
     text-align: center;
-    width: 95vw;
-    height: 26vh;
-    margin-top: 55px;
+    width: 100%;
+    height: 30vh;
+    margin-top: 2vw;
     background-color: #fff;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 5px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .cadastro-inputs{
     width: 90%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,31 +22,39 @@
 
 .cadastro-inputs input {
     width: 100%;
-    padding: 0;
+    height: 7vh;
     border-radius: 10px;
     border-color: aliceblue;
-    cursor: pointer;
-    height: 8vh;
-    font-size: 18px;
+    font-size: 1vw;
+    text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .cadastro-inputs label {
     text-align: left;
-    font-size: 33px;
+    font-size: 1.7vw;
+    margin: 1.5vw;
 }
 
 .cadastro-inputs button {
-    width: 15%;
-    height: 8vh;
-    margin: 22px;
-    font-size: 18px;
+    width: 14%;
+    height: 7vh;
+    margin-left: 4vw;
+    margin-top: 1.6vw;
+    font-size: 1.4vw;
+    font-weight: bolder;
     color: #fff;
     background-color: blue;
-    border: bone;
+    border: black;
+    border-width: 3px;
     border-radius: 10px;
-    margin-top: 50px
-
+    cursor: pointer;
 }
 
+.cadastro-inputs button:hover{
+    width: 15%;
+    height: 8vh;
+    transition: 0.3s;
+}
